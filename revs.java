@@ -5,20 +5,13 @@ class revs
 {
 	public static void main(String ar[])
 	{
-		String a="sms";
+		String str="sms";
 		String rev="";
-		for(char c:a.toCharArray())
+		for(char c:str.toCharArray())
 		{
 			rev=c+rev;
 		}
 		System.out.println(rev);
-		
-		{
-			System.out.println("Yes");
-		}
-		else
-		{
-			System.out.println("No");
-		}
+		System.out.println("String Compair : "+str.equals(rev)); 
 	}
 }
